@@ -1,0 +1,24 @@
+:root {
+  --gridSize: 0;
+}
+.sketch-box {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding-top: 100%;
+}
+.sketch-box:hover {
+  cursor: crosshair;
+}
+
+#grid-container {
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(var(--gridSize), auto);
+}
+.center {
+  margin: auto;
+  width: 50%;
+}
