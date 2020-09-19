@@ -8,17 +8,61 @@
   background-color: cornflowerblue;
   width: 100%;
   padding-top: 100%;
+  z-index: 5;
 }
 .sketch-box:hover {
   cursor: crosshair;
 }
 
 #grid-container {
-  width: 960px;
+  width: 720px;
   display: grid;
   grid-template-columns: repeat(var(--gridSize), auto);
+  background-color: antiquewhite;
 }
+
 .center {
   margin: auto;
   width: 50%;
+}
+.sketcher {
+  width: 760px;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: rgb(182, 12, 12);
+  border-radius: 25px;
+}
+.button {
+  margin: auto;
+  width: 200px;
+  border-radius: 5px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  font-family: cursive;
+  font-size: 30px;
+  color: rgb(228, 151, 51);
+  margin: auto;
+  width: 50%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.shadow {
+  box-shadow: 0 8px 6px -6px black;
+  box-shadow: -4 -4 -4 -4 rgb(34, 1, 1);
+}
+.knob {
+  border: black;
+  margin: auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow: 1px 2px black, 2px 0 2px black;
+}
+.btns {
+  width: 760px;
 }

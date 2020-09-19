@@ -2,12 +2,20 @@
 <html lang="eng">
   <head>
     <script type="text/javascript" src="javascript.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" id="css" />
   </head>
 
   <body>
-    <div class="center"><button class="center">Clear Sketch</button></div>
     <br />
-    <div id="grid-container" class="center"></div>
+    <div class="center sketcher shadow">
+      <div class="center"><h2>Etch-a-Sketch</h2></div>
+      <div id="grid-container" class="center"></div>
+      <br />
+      <div class="center flex btns">
+        <button class="knob" id="grayScale">GRAY-SCALE</button>
+        <button class="button" id="btn">Clear Sketch</button>
+        <button class="knob" id="colorful">COLORFUL</button>
+      </div>
+    </div>
   </body>
 </html>
