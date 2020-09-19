@@ -79,7 +79,7 @@ colorful.addEventListener("click", function (e) {
   if (chooseColor == 1 || chooseColor == 3) {
     chooseColor = 2;
   } else {
-    chooseColor == 1;
+    chooseColor = 1;
   }
 });
 
@@ -88,6 +88,6 @@ grayScale.addEventListener("click", function (e) {
   if (chooseColor == 1 || chooseColor == 2) {
     chooseColor = 3;
   } else {
-    chooseColor == 1;
+    chooseColor = 1;
   }
 });
