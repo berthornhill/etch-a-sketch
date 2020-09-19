@@ -34,9 +34,18 @@
   border-radius: 25px;
 }
 .button {
+  background-color: rgb(228, 151, 51);
   margin: auto;
   width: 200px;
   border-radius: 5px;
+  border-style: none;
+  box-shadow: 1px 2px black, 2px 0 2px black;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(248, 228, 48, 0.774);
+  box-shadow: 3px 3px rgba(251, 255, 43, 0.582),
+    3px 0 3px rgba(251, 255, 43, 0.534);
 }
 .flex {
   display: flex;
@@ -56,12 +65,22 @@ h2 {
   box-shadow: -4 -4 -4 -4 rgb(34, 1, 1);
 }
 .knob {
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 95%;
+  background-color: rgb(228, 151, 51);
   border: black;
   margin: auto;
   width: 85px;
   height: 85px;
   border-radius: 50%;
   box-shadow: 1px 2px black, 2px 0 2px black;
+}
+.knob:hover {
+  cursor: pointer;
+  background-color: rgba(248, 228, 48, 0.774);
+  box-shadow: 3px 3px rgba(251, 255, 43, 0.582),
+    3px 0 3px rgba(251, 255, 43, 0.534);
 }
 .btns {
   width: 760px;
